@@ -6,13 +6,24 @@
     margin-top: 0px;
    }
 .slide img{
-    height: 70vh;
+    height: 500px;
+    width: 500;
+    
 }
+.tam{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+
+}
+
 /* ---------------------------------------------------------------------*/
 .contenedor-footer {
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content:space-around;
+    
     padding-bottom: 50px;
     /* ---padding = espacio vacio entre la linea blanca y el texto - border es el grosor de la linea blanca del final--*/
     border-bottom: 1px solid #ccc;
@@ -42,7 +53,10 @@ footer
     margin-top:50px;
     background-color:#212529;
     text-align: center;
+    bottom: 0;
+    width: 100%;
    
+    
 }
 .h1-color{
   color:#0d6efd;
@@ -54,6 +68,15 @@ footer
 
     text-decoration: none;
 }
+.centrado{
+    text-align: center;
+}
+
+.margen-form{
+
+    margin-bottom: 50px;
+}
+
 /* conten son del pie de página*/
 /* ---------------------------------------------------------------------*/
 
@@ -109,6 +132,13 @@ main .portada {
     margin-bottom: 60px;
 
 }
+.form-label{
+    color: whitesmoke;
+}
+.form-check-label{
+    color: whitesmoke;
+}
+
 /* ---------------------------------------------------------------------*/
 @media screen and (max-width:900px) {
     header {
