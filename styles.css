@@ -15,10 +15,29 @@
     
     */
 }
+.color_letras {
+    color: white; ;
+}
+.color_letras:hover{
+    color: grey;
+}
+.navbar_color{
+    background-color: #006414;
+}
 .carrusel{
     height: 400px;
-
 }
-.boton_carrusel{
-    color: black;
+.letras_carrusel {
+    color: white;
+}
+.img_donacion {
+    height: 250px;
+    width: 250px;
+}
+.img_donacion_modal {
+    height: 200px;
+    width: 200px;
+}
+.alinear_cartas {
+    text-align: center;
 }
