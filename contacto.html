@@ -1,6 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <header>
+    
+  </header>
+  
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <title>Contactanos</title>
+
+  </head>
+
+  <body style="background-color:white;"> 
     <nav class="navbar navbar-expand-sm bg-dark ">
       <div class="container-fluid">
         <ul class="navbar-nav">
@@ -28,22 +45,65 @@
         </ul>
       </div>
     </nav>
-  </header>
-  
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <br>
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-4">
+          <label for="Nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="Nombre" placeholder="Juan" required>
+        </div>
+        <div class="col-md-4">
+          <label for="Apellidos" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="Apellidos" placeholder="Pérez"required>
+        </div>
+        <div class="col-md-4">
+          <label for="Telefono" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="Telefono" placeholder="+56912345678" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="validationDefault03" placeholder="ejemplo@correo.cl" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Región</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Elige tu región</option>
+            <option>Arica y Parinacota</option>
+            <option>Tarapacá</option>
+            <option>Antofagasta</option>
+            <option>Atacama</option>
+            <option>Coquimbo</option>
+            <option>Valparaíso</option>
+            <option>Metropolitana</option>
+            <option>O'Higgins</option>
+            <option>Maule</option>
+            <option>Ñuble</option>
+            <option>Biobío</option>
+            <option>Araucanía</option>
+            <option>Los Ríos</option>
+            <option>Los Lagos</option>
+            <option>Aysén</option>
+            <option>Magallanes</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="validationDefault05" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Acepto el uso de estos datos para que me contacten.
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+  </div>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   
-
-  </head>
-
-  <body style="background-color:#002650;"> 
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
+    
   </body>
 </html>
