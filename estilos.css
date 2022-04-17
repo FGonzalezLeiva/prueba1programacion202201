@@ -1,15 +1,23 @@
+.alin{
+
+    align-content:right;
+}
+.slide {
+    margin-top: 0px;
+   }
+.slide img{
+    height: 70vh;
+}
 /* ---------------------------------------------------------------------*/
 .contenedor-footer {
     display: flex;
-    width: 90%;
     justify-content: space-evenly;
-    margin: auto;
+
     padding-bottom: 50px;
+    /* ---padding = espacio vacio entre la linea blanca y el texto - border es el grosor de la linea blanca del final--*/
     border-bottom: 1px solid #ccc;
 }
-.content-foo {
-    text-align: center;
-}
+
 .content-foo h4 {
     color: #fff;
     border-bottom: 3px solid #af20d3;
@@ -19,6 +27,7 @@
 .content-foo a {
     
     text-decoration: none;
+ 
     
 }
 .titulo-final {
@@ -26,13 +35,14 @@
     font-size: 24px;
     margin: 20px 0 0 0;
     color: #9e9797;
+    background-color:#212529;
 }
 footer
 {
     margin-top:50px;
-    width:100%;
-    height:200px;
     background-color:#212529;
+    text-align: center;
+   
 }
 .h1-color{
   color:#0d6efd;
@@ -48,24 +58,29 @@ footer
 /* ---------------------------------------------------------------------*/
 
 main .portada {
-    padding: 30px 0 60px 0;
+    padding: 100px 0 60px 0;
+    
 }
 .contenedor-portada {
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .portada .contenido-textos {
     width: 48%;
+    
 }
-.contenido-textos h3 span {
+.contenido-textos p span {
     background: #4d0686;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
+
     width: 30px;
     height: 30px;
     padding: 0px;
+    
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
 }
@@ -112,6 +127,12 @@ main .portada {
     }
 
     .imagen-about-us {
-        width: 10%;
+        width: 80%;
         /* Ajusta el tamaño de la imagen al cambiar el tamaño de pantalla*/
+    }
+
+    .contenedor-footer {
+        flex-direction: column;
+        /* al cambiar el tamaño de pantalla el pie de pagina se divide en una columna*/
+       
     }}
