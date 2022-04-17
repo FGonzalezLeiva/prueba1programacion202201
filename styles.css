@@ -41,3 +41,11 @@
 .alinear_cartas {
     text-align: center;
 }
+.texto {
+    text-align: center;
+}
+.pie {
+    background-color: #006414;
+    text-align: center;
+    color: white;
+}
