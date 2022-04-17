@@ -1,17 +1,117 @@
-#colorazul {
-
-    color: blue;
-
-
-    /* Llamada <h1 id =colorazul> "texto "</h1>*/
+/* ---------------------------------------------------------------------*/
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
 }
-.colorazul{
-
-    color:blue
-    /* Llamada <h1 class =colorazul> "texto "</h1>
-
-    se pueden llamar mas de una clase con las funcion class
-    class: funcion1 funcion2
+.content-foo {
+    text-align: center;
+}
+.content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo a {
     
-    */
+    text-decoration: none;
+    
 }
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+footer
+{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+    background-color:#212529;
+}
+.h1-color{
+  color:#0d6efd;
+
+}
+
+    
+.vacio{
+
+    text-decoration: none;
+}
+/* conten son del pie de página*/
+/* ---------------------------------------------------------------------*/
+
+main .portada {
+    padding: 30px 0 60px 0;
+}
+.contenedor-portada {
+    display: flex;
+    justify-content: space-evenly;
+}
+.portada .contenido-textos {
+    width: 48%;
+}
+.contenido-textos h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+    color: whitesmoke
+}
+
+
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    color:white
+}
+.imagen-about-us {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 45%;;
+}
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+/* ---------------------------------------------------------------------*/
+@media screen and (max-width:900px) {
+    header {
+        background-position: center;
+    }
+
+    .contenedor-portada {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* Ajusta el movimiento del texto con la imagen*/
+    }
+
+    .portada .contenido-textos {
+        width: 70%;
+    }
+
+    .imagen-about-us {
+        width: 10%;
+        /* Ajusta el tamaño de la imagen al cambiar el tamaño de pantalla*/
+    }}
